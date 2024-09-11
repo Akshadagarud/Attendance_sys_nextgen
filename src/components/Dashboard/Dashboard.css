@@ -1,0 +1,133 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0 130px;
+    background-color: #f4f4f9;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .title-bar {
+    display: flex;
+    align-items: center;
+    justify-content: start; 
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+  }
+  
+  .title-bar h1 {
+    margin: 0;
+    color: #a91818;
+    font-size: 32px;
+    margin-left: 20px; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    width: 250px;
+    height: auto;
+  }
+  
+  .card-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+  }
+  
+  .card, .filter-card {
+    background-color: #4caf50;
+    color: #333;
+    padding: 15px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 22%; 
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+  
+  .card h2, .filter-card h2 {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .card p {
+    font-size: 28px; 
+    font-weight: bold;
+    margin: 0; 
+  }
+  
+  .absent-card {
+    background-color: #d84343; 
+  }
+  
+  .filter-card {
+    background-color: #f4cdee;
+  }
+  
+  .filter-card select {
+    padding: 8px; 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px; 
+    width: 100%;
+  }
+  
+  .charts-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 30px;
+  }
+  
+  .charts-row > div {
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    height: 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chart-container {
+    background-color: #F5C4AF;
+    padding: 15px; 
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 300px; 
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .chart-container h2 {
+    margin-bottom: 10px;
+    font-size: 18px; 
+  }
+  
+  canvas {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain;
+  }
+  
